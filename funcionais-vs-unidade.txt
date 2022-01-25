@@ -1,0 +1,11 @@
+# Diferenças entre testes funcionais e de unidade
+
+1. Testes de unidade testam uma funcionalidade, mas em nível de código
+(comportamento lógico). Por outro lado, testes funcionais testam funcionalidades
+do ponto de vista do usuário final do SUT.
+
+2. Testes de unidade são independentes, de acordo com o I dos princípios
+FIRST. Isto é, não dependem de coisas externas ao programa sob teste. Testes
+funcionais, por outro lado, geralmente necessitam que exercitemos uma
+dependência externa diretamente, como abrir um navegador e checar se o título da
+página está coerente, que fizemos nesta aula prática.
