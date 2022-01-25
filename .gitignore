@@ -3,3 +3,7 @@ geckodriver.log
 virtualenv
 __pycache__
 *.pyc
+
+# Emacs-generated files
+*~
+*.log
