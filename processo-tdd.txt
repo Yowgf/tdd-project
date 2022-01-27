@@ -1,0 +1,26 @@
+Descrição do processo TDD
+--------------------------------------------------------------------------------
+
+Test Driven Development (TDD) é o método que temos aplicado para desenvolver
+este projeto. A ideia é aumentar a qualidade do código em vários aspectos, além
+de permitir um ciclo de desenvolvimento mais ágil.
+
+O primeiro passo do nosso ciclo TDD é fazer um teste funcional, que está mais
+diretamente relacionado com a funcionalidade buscada, e portanto é geralmente
+mais natural de se escrever. Se tivemos seguido TDD fielmente até este ponto, o
+teste deve falhar.
+
+Agora que estamos certos de que nossa aplicação não satisfaz os requerimentos
+buscados, podemos partir para um nível menor. Escrevemos testes de unidade para
+cada funcionalidade que buscamos em nível de código. O teste deve começar não
+passando. Então, fazemos alterações mínimas de código até que ele passe,
+enquanto aprimoramos a qualidade do teste de unidade em si.
+
+Eventualmente entre as iterações de teste de unidade, o teste funcional deve
+passar. Neste ponto sabemos que a funcionalidade requisitada é atendida pela
+implementação.
+
+Note que em cada passo podemos realizar uma refatoração 'oportunista'. Isto é,
+ao ver que um trecho do código pode ser melhorado sem alterar sua modificação,
+também somos permitidos (e incentivados) a fazê-lo, de acordo com os princípios
+TDD.
