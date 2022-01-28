@@ -8,5 +8,6 @@ __pycache__
 *~
 *.log
 
-# Local scripts
+# Local scripts and config
 commit.sh
+.env
